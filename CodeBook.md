@@ -15,7 +15,7 @@ www.smartlab.ws
 
 
 ## Purpose
-Create a tidy dataset based on the mean and standard deviation variables in the human activity recognition using smartphones dataset.
+Create a tidy dataset based on the mean and standard deviation variables in the Human Activity Recognition Using Smartphones dataset.
 
 ## Introduction
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
@@ -51,9 +51,11 @@ The collected data is from where 70% of the volunteers was selected for generati
 - The Features which the mean calculated for them are normalized and bounded within [-1,1].
 - Each record is provided:
 
-1) An identifier of the subject who carried out the experiment.
-2) Its activity label. 
-3) The mean for 66-feature vector with time and frequency domain variables (the features are the mean and standard deviation measurements).
+	1) An identifier of the subject who carried out the experiment.
+
+	2) Its activity label. 
+
+	3) The mean for 66-feature vector with time and frequency domain variables (the features are the mean and standard deviation measurements).
 
 - The acceleration signal from the smartphone accelerometer X, Y and Z axis in standard gravity units 'g'. 
 - The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
